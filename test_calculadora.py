@@ -23,7 +23,7 @@ class TestSumar(unittest.TestCase):
 
     def test_dividir(self):
         self.assertEqual(dividir(4, 2), 2)
-        self.assertEqual(dividir(9, -3), 0)
-        self.assertEqual(dividir(-1, -1), -2)
+        self.assertEqual(dividir(9, -3), -3)
+        self.assertEqual(dividir(7, 0), "No se puede divirdir por 0")
 if __name__ == '__main__':
  unittest.main()
